@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "analyze": "node scripts/process-videos.js D:\\00video-media\\moov-back",
+    "analyze-moov": "node scripts/analyze-moov-and-mediainfo.js medias",
     "dump-moov-front": "rtk mp4dump.exe medias/avc1_18s_moovfront.mp4",
     "dump-moov-front-py": "python3 scripts/check_moov.py medias/avc1_18s_moovfront.mp4",
     "dump-moov-back": "python3 scripts/check_moov.py medias\\avc1_18s_moovback_MPEG-4.mp4",
