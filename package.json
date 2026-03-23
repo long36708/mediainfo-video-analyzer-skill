@@ -1,0 +1,20 @@
+{
+  "name": "mediainfo-video-analyzer-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "node scripts/process-videos.js D:\\00video-media\\moov-back",
+    "dump-moov-front": "rtk mp4dump.exe medias/avc1_18s_moovfront.mp4",
+    "dump-moov-front-py": "python3 scripts/check_moov.py medias/avc1_18s_moovfront.mp4",
+    "dump-moov-back": "python3 scripts/check_moov.py medias\\avc1_18s_moovback_MPEG-4.mp4",
+    "convert-moov-front-to-back": "ffmpeg -i D:\\00video-media\\avc1_18s.mp4 -c copy medias/avc1_18s_moovback_MPEG-4.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "dependencies": {
+    "mediainfo.js": "^0.3.7"
+  }
+}

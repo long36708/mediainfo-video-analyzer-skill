@@ -16,7 +16,7 @@
 确保已安装 mediainfo.js:
 
 ```bash
-npm install mediainfo.js
+pnpm install mediainfo.js 
 ```
 
 ## 使用方法
